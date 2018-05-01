@@ -1,0 +1,192 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "The International Institute of Information Technology was established in 1999",
+        "intent": "Establishment",
+        "entities": [
+          {
+            "start": 73,
+            "end": 77,
+            "value": "1999",
+            "entity": "Started"
+          },
+          {
+            "start": 58,
+            "end": 77,
+            "value": "established in 1999",
+            "entity": "Establishment"
+          }
+        ]
+      },
+      {
+        "text": "The Institute is a registered not-for-profit society funded jointly by the Government of Karnataka and the IT industry",
+        "intent": "Funding",
+        "entities": [
+          {
+            "start": 53,
+            "end": 85,
+            "value": "funded jointly by the Government",
+            "entity": "Funding"
+          },
+          {
+            "start": 30,
+            "end": 45,
+            "value": "not-for-profit ",
+            "entity": "Non profit"
+          }
+        ]
+      },
+      {
+        "text": "http://www.iiitb.ac.in/impact/",
+        "intent": "Website",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "http://www.iiitb.ac.in/impact/",
+            "entity": "Impact"
+          },
+          {
+            "start": 0,
+            "end": 30,
+            "value": "http://www.iiitb.ac.in/impact/",
+            "entity": "Achievement"
+          }
+        ]
+      },
+      {
+        "text": "http://www.iiitb.ac.in/pages/director-message/",
+        "intent": "Website",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "http://www.iiitb.ac.in/pages/director-message/",
+            "entity": "Director"
+          },
+          {
+            "start": 0,
+            "end": 46,
+            "value": "http://www.iiitb.ac.in/pages/director-message/",
+            "entity": "Message"
+          }
+        ]
+      },
+      {
+        "text": "http://www.iiitb.ac.in/pages/infrastructure/",
+        "intent": "Infrastructure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "http://www.iiitb.ac.in/pages/infrastructure/",
+            "entity": "Facilities"
+          },
+          {
+            "start": 0,
+            "end": 44,
+            "value": "http://www.iiitb.ac.in/pages/infrastructure/",
+            "entity": "Infrastructure"
+          }
+        ]
+      },
+      {
+        "text": "Address of the University:        IIIT-Bangalore, 26/C,  Electronics City, Hosur Road,  Bangalore, 560100  Tel: +91 80 4140 7777 / 2852 7627 ",
+        "intent": "Location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 141,
+            "value": "Address of the University:        IIIT-Bangalore, 26/C,  Electronics City, Hosur Road,  Bangalore, 560100  Tel: +91 80 4140 7777 / 2852 7627 ",
+            "entity": "Address"
+          },
+          {
+            "start": 0,
+            "end": 141,
+            "value": "Address of the University:        IIIT-Bangalore, 26/C,  Electronics City, Hosur Road,  Bangalore, 560100  Tel: +91 80 4140 7777 / 2852 7627 ",
+            "entity": "Location"
+          },
+          {
+            "start": 0,
+            "end": 141,
+            "value": "Address of the University:        IIIT-Bangalore, 26/C,  Electronics City, Hosur Road,  Bangalore, 560100  Tel: +91 80 4140 7777 / 2852 7627 ",
+            "entity": "Situated"
+          }
+        ]
+      },
+      {
+        "text": "Tel: +91 80 4140 7777 / 2852 7627 ",
+        "intent": "Contact",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "Tel: +91 80 4140 7777 / 2852 7627 ",
+            "entity": "Phone"
+          },
+          {
+            "start": 0,
+            "end": 34,
+            "value": "Tel: +91 80 4140 7777 / 2852 7627 ",
+            "entity": "TelePhone"
+          },
+          {
+            "start": 0,
+            "end": 34,
+            "value": "Tel: +91 80 4140 7777 / 2852 7627 ",
+            "entity": "Contact"
+          },
+          {
+            "start": 0,
+            "end": 34,
+            "value": "Tel: +91 80 4140 7777 / 2852 7627 ",
+            "entity": "Number"
+          }
+        ]
+      },
+      {
+        "text": "http://www.iiitb.ac.in/pages/how-to-reach/",
+        "intent": "Reach",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "http://www.iiitb.ac.in/pages/how-to-reach/",
+            "entity": "Map"
+          },
+          {
+            "start": 0,
+            "end": 42,
+            "value": "http://www.iiitb.ac.in/pages/how-to-reach/",
+            "entity": "Google Maps"
+          },
+          {
+            "start": 0,
+            "end": 42,
+            "value": "http://www.iiitb.ac.in/pages/how-to-reach/",
+            "entity": "How to reach"
+          }
+        ]
+      },
+      {
+        "text": "\"AICTE recognition is granted to the courses run by the colleges. Deemed Universities are not under the jurisdiction of AICTE. IIITB is a Deemed University  under UGC Act 1956 as per Notification from Ministry of HRD, Govt of India vide No. 9-3/2003-U-3 dated 28th February 2005”",
+        "intent": "Recognition",
+        "entities": [
+          {
+            "start": 65,
+            "end": 125,
+            "value": " Deemed Universities are not under the jurisdiction of AICTE",
+            "entity": "Deemed"
+          },
+          {
+            "start": 1,
+            "end": 279,
+            "value": "AICTE recognition is granted to the courses run by the colleges. Deemed Universities are not under the jurisdiction of AICTE. IIITB is a Deemed University  under UGC Act 1956 as per Notification from Ministry of HRD, Govt of India vide No. 9-3/2003-U-3 dated 28th February 2005”",
+            "entity": "AICTE"
+          }
+        ]
+      }
+    ]
+  }
+}
